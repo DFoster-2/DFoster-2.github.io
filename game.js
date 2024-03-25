@@ -76,7 +76,7 @@ function go_to_page(url){
 
 }
 // this script is in game_a.js to above
-
+import { butiled } from './buled.js';
 window.addEventListener('load', () => sortButtonsAlphabetically());
 function getStoredURLs() {
   const storedURLs = localStorage.getItem('visitedPages');
